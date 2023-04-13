@@ -8,11 +8,11 @@
     Quando eu digitar o <usuario> e <senha>
     Então devo ser redirecionado para a tela de checkout
     Examples:
-      | usuario            | senha     |
-      | “joao@ebac.com.br” | “123@abc” |
-      | “joao@ebac.com.br” | “123@abc” |
-      | “joao@ebac.com.br” | “123@abc” |
-      | “joao@ebac.com.br” | “123@abc” |
+      | usuario                     | senha          |
+      | “victor-dias@uol.com.br”    | “1L7A&7JrNj$x” |
+      | “jlucianolf@hotmail.com”    | “^qv65UJC7bfD” |
+      | “marcio@usp.br”             | “9fJP%qv9^2y6” |
+      | “miguel.longman@agu.gov.br” | “D#sLh7n1Ip3$” |
 
 
 Cenário:  Ao inserir um dos campos inválidos deve exibir uma mensagem de alerta “Usuário ou senha inválidos”
